@@ -1,0 +1,307 @@
+{
+  "common": {
+    "delete": "delete",
+    "ok": "OK!",
+    "cancel": "Cancel",
+    "back": "Back",
+    "register": "Sign up",
+    "login": "Sign in",
+    "signOut": "Sign out",
+    "import": "Import",
+    "cancellation": "Cancel",
+    "send": "Send",
+    "get": "Get",
+    "address": "Address",
+    "value": "Amount",
+    "save": "Save",
+    "deny": "Deny",
+    "allow": "Allow",
+    "sign": "Sign",
+    "message": "Message",
+    "messageFrom": "Message from",
+    "total": "Total",
+    "wallet": "Wallet",
+    "balance": "Balance",
+    "low": "Low",
+    "slow": "Slow",
+    "normal": "Normal",
+    "medium": "Medium",
+    "fast": "Fast",
+    "speedUp": "Speed up",
+    "receive": "Receive",
+    "sendTo": "To send",
+    "refresh": "Refreshing",
+    "noData": "No data",
+    "next": "Next",
+    "from": "From",
+    "current": "Current",
+    "new": "New",
+    "words": "Words",
+    "view": "View"
+  },
+  "errorBoundary": {
+    "title": "Something happened!",
+    "tryAgain": "Refresh",
+    "description": "Please press \"Refresh\" button"
+  },
+  "errors": {
+    "invalidEmail": "Invalid email address",
+    "transactionBodyError": "Invalid transaction body"
+  },
+  "registerScreen": {
+    "registration": "Registration",
+    "recoverFromMnemonicOne": "I already have a wallet",
+    "recoverFromMnemonicTwo": "Sign in with another wallet",
+    "recoverPhrase": "Recovery phrase",
+    "enterPin": "Enter PIN code",
+    "goExisting": "Go to existing wallet",
+    "walletCreating": "Wallet is being created",
+    "walletRecoverTitle": "Sign in with a recovery phrase",
+    "recoveryError": "Incorrect, please check words",
+    "recoveryDescription": "Separate words by single space",
+    "createNewWallet": "Create a new wallet"
+  },
+  "lockerScreen": {
+    "incorrectPin": "Invalid PIN",
+    "pinFormErrorIncorrectConfirmationMessage": "Incorrect PIN",
+    "pinFormErrorIncorrectPinMessage": "Incorrect PIN",
+    "pinFormLoginAction": "Enter %{p}PIN code",
+    "pinFormRegisterAction": "Create %{p}PIN code",
+    "pinFormConfirmationAction": "Confirm %{p}PIN code",
+    "pinFormChangeActionDescription": "For change to the new one",
+    "pinFormRegisterActionDescription": "For quick access to the\napplication",
+    "pinFormConfirmationActionDescription": "And remember your code",
+    "correctPin": "PIN code verified",
+    "fingerprint": "Fingerprint"
+  },
+  "walletScreen": {
+    "allAddresses": "All addresses",
+    "totalBalanceTittle": "Your total balance",
+    "name": "Wallet",
+    "menuDialog": {
+      "createWallet": {
+        "name": "Create new address",
+        "createWalletMessage": "Creation of new address…",
+        "createWalletMessageDone": "New address was created!"
+      }
+    }
+  },
+  "browserScreen": {
+    "name": "Browser",
+    "searchPlaceholder": "Search or type web address",
+    "closeAllTabs": "Close all tabs",
+    "newTab": "New tab",
+    "reloadPage": "Reload page",
+    "openNewTab": "Open new tab",
+    "addToBookmarks": "Add to bookmarks",
+    "changeAddress": "Change address",
+    "changeNetwork": "Change network"
+  },
+  "walletMenuDialog": {
+    "hideWallet": "Hide address",
+    "transactionHistory": "Transactions",
+    "noTransactions": "Transactions will appear here"
+  },
+  "exportMnemonicDialog": {
+    "title": "Your secret phrase",
+    "description": "This is your secret (recovery) phrase. It proves wallet ownership, never disclose it to anyone. Write it on paper and store in a safe place. If you lose device or reinstall wallet, you would need it."
+  },
+  "settingsScreen": {
+    "name": "Settings",
+    "editProfile": "Edit",
+    "menu": {
+      "currentCurrency": "Current currency",
+      "changePin": "Change PIN code",
+      "ethNetwork": "Ethereum network",
+      "fiatFirst": "Display fiat on top",
+      "currencyPreference": "Currency Preference",
+      "fiatPrimary": "Fiat balances on top",
+      "tokenPrimary": "Crypto balances on top",
+      "native": "Native",
+      "graphPreferences": "Graph preferences",
+      "showGraph": "Show graph",
+      "showToken": "Show token",
+      "exportMnemonic": "Export recovery phrase",
+      "recoveryPhrase": "Recovery phrase",
+      "changePinCode": "Change PIN code",
+      "currency": "Currency",
+      "network": "Network",
+      "aboutApplication": "About application",
+      "signOut": "Sign Out",
+      "recoveryDescription": "The recovery phrase proves wallet ownership, never disclose it to anyone. \n\nIf you lose your recovery phrase, even Dapp will not be able to get your resources back.",
+      "recoveryWarning": "I understand the risks",
+      "recoveryBtn": "View recovery phrase",
+      "recoveryPhraseDescription": "Write these words in the right order on paper and store in a safe place. \nIf you lose device or reinstall wallet, you would need it.",
+      "recoveryPhraseWarning": "Never share your recovery phrase with anyone, store it securely!",
+      "testNets": "Test networks",
+      "mainNets": "Mainnets",
+      "bscNets": "BSC test networks",
+      "privacyPolicyName": "Privacy policy",
+      "privacyPolicyDescription": "",
+      "termsOfServiceName": "Terms of service",
+      "termsOfServiceDescription": "",
+      "disableBio": "Biometrics access",
+      "walletConnect": {
+        "title": "Wallet connect",
+        "info": "WalletConnect feature allows to use this Dapp wallet with an app on another device. To connect:\n",
+        "hint": "1. Visit application or website that supports WalletConnect (for example: Uniswap);\n2. Click on \"Connect wallet\" button and choose \"WalletConnect\";\n3. Scan QR code with Dapp wallet\n"
+      },
+      "displayOptions": "Display options",
+      "balanceDisplay": "Balance Display",
+      "fiatCurrency": "Fiat Currency",
+      "infoDisplay": "Info Display",
+      "charts": "Charts",
+      "tokenPrice": "Token price"
+    }
+  },
+  "visibilityScreen": {
+    "name": "Visibility",
+    "totalTokens": "Total tokens",
+    "visibleTokens": "Visible tokens",
+    "invisibleTokens": "Hidden tokens"
+  },
+  "selectTransactionFeeDialog": {
+    "name": "Speed up transaction by adjusting miner fee",
+    "description": "Estimated times based on each price"
+  },
+  "exitDialog": {
+    "title": "Have you secured your recovery phrase",
+    "description": "Without this you will not be able to recover your account or sign back"
+  },
+  "sendTransactionDialog": {
+    "successTx": "Funds sent successfully",
+    "errorTx": "Error submitting transaction",
+    "suggestedFee": "Suggested fee",
+    "maxFee": "Max fee",
+    "maxAmount": "Max amount",
+    "insufficientBalance": "Insufficient balance",
+    "outerSuggestion": "TX data",
+    "transactionSending": "Sending...",
+    "successSendTx": "Transaction successfully send",
+    "sendTransaction": "Send",
+    "cantRewriteTransaction": "You balance is not enough, for cancel or increase speed of transaction"
+  },
+  "selectValueScreen": {
+    "step": "Step 1 of 3",
+    "step2": "Step 2 of 3",
+    "step3": "Step 3 of 3",
+    "nextBtn": "Next",
+    "fee": "Fee"
+  },
+  "selectAddressScreen": {
+    "inputMessage": "Please enter address or use a scanner",
+    "inputMessageError": "Not a valid address",
+    "transfer": "Transfer",
+    "betweenMyAddresses": "Between my addresses",
+    "toRecentAddress": "To recent address"
+  },
+  "selectWalletTokenDialog": {
+    "title": "Select token"
+  },
+  "approvalDappConnectDialog": {
+    "wontToConnect": "Connect to",
+    "attention": "With your agreement, you allow DApp get address your wallet and connect Web3",
+    "deny": "Maybe later",
+    "allow": "Yes, connect this address"
+  },
+  "profileScreen": {
+    "name": "Profile",
+    "email": "Email",
+    "firstName": "First name",
+    "lastName": "Last name"
+  },
+  "signatureRequest": {
+    "title": "Signature Request",
+    "signRequested": "Your signature is being requested",
+    "signing": "Yes, sign this message",
+    "deny": "Maybe later",
+    "ethSignWarning": "By signing this message, please make sure that you trust this site."
+  },
+  "transactionsScreen": {
+    "name": "Transactions"
+  },
+  "transactionScreen": {
+    "transactionDetails": "Transaction details",
+    "viewOnEtherScan": "View on %{0}",
+    "status": "Status",
+    "date": "Date",
+    "from": "From",
+    "to": "To",
+    "amount": "Amount",
+    "suggestedFee": "Suggested fee",
+    "total": "Total",
+    "cancelTransaction": "Cancel transaction",
+    "speedUpTransaction": "Speed up transaction",
+    "howMany": "How many",
+    "adjustFee": "Adjust miner fee",
+    "changeFee": "Change fee"
+  },
+  "transactionModel": {
+    "status": {
+      "fail": "fail",
+      "success": "success",
+      "process": "process"
+    },
+    "action": {
+      "outgoing": "Sent",
+      "incoming": "Incoming",
+      "undefined": "Undefined",
+      "smartContract": "Contract",
+      "reject": "Canceled",
+      "error": "Error",
+      "pending": "Pending",
+      "cancelling": "Cancelling"
+    }
+  },
+  "sendTransaction": {
+    "action": {
+      "pending": "Wait for transaction...",
+      "cancel": "Wait for cancel...",
+      "speedUp": "Wait for speed up...",
+      "done": "Transaction mined!",
+      "error": "Error transaction"
+    }
+  },
+  "selfAddressQRCodeDialog": {
+    "copyAddress": "Copy address",
+    "shareAddress": "Share address",
+    "description": "For your replenishment, the sender just needs to scan the QR code and enter the desired amount.",
+    "shareTitle": "Ethereum address"
+  },
+  "appToasts": {
+    "addressCopied": "Your public address copied",
+    "connected": "Connected to internet",
+    "disconnected": "Your internet connection is lost"
+  },
+  "qRScanner": {
+    "allowDialog": {
+      "title": "\"Dapp\" application requests access to the camera",
+      "message": "Required to scan codes for adding contacts and payments"
+    },
+    "scanning": "Point the camera of your phone to the QR code ",
+    "chooseFromGallery": "Choose from gallery",
+    "qrCodeDetectionError": "Failed to detect QR code in image",
+    "scanQrCode": "Scan QR code"
+  },
+  "infoScreen": {
+    "signIn": {
+      "title": "%{key} button means:",
+      "description": "If you have a wallet you can paste your secret 12 words and transfer your account to Dapp wallet app"
+    },
+    "createWallet": {
+      "title": "“Create a new wallet” button means:",
+      "description": "If you don't have a wallet you may create it here in Dapp wallet app"
+    },
+    "enterPin": {
+      "title": "“Enter PIN code” button means:",
+      "description": "Enter PIN code to sign in your existing wallet"
+    }
+  },
+  "loadingText": "Please wait... \n It might take up a few minutes",
+  "offers": {
+    "seed": {
+      "tittle": "Recovery phrase",
+      "description": "Check out your secret phrase to restore your wallet"
+    }
+  }
+}

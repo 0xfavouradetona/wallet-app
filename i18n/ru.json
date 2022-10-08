@@ -1,0 +1,307 @@
+{
+  "common": {
+    "delete": "удалить",
+    "ok": "OK!",
+    "cancel": "Закрыть",
+    "back": "Назад",
+    "register": "Регистрация",
+    "login": "Вход",
+    "signOut": "Выход",
+    "import": "Импортировать",
+    "cancellation": "Отмена",
+    "send": "Отправить",
+    "get": "Получить",
+    "address": "Адрес",
+    "value": "Сумма",
+    "save": "Cохранить",
+    "deny": "Отказать",
+    "allow": "Разрешить",
+    "sign": "Подписать",
+    "message": "Сообщение",
+    "messageFrom": "Сообщение от",
+    "total": "Всего",
+    "wallet": "Кошелек",
+    "balance": "Баланс",
+    "low": "Медленно",
+    "slow": "Медленно",
+    "normal": "Нормально",
+    "medium": "Обычно",
+    "fast": "Быстро",
+    "speedUp": "Ускорить",
+    "receive": "Получить",
+    "sendTo": "К отправке",
+    "refresh": "Обновление",
+    "noData": "Нет данных",
+    "next": "Следующий",
+    "from": "От",
+    "current": "Текущий",
+    "new": "Новый",
+    "words": "Слов",
+    "view": "Смотреть"
+  },
+  "errorBoundary": {
+    "title": "Что то произошло!",
+    "tryAgain": "Обновить",
+    "description": "Пожалуйта нажмите кнопку \"Обновить\""
+  },
+  "errors": {
+    "invalidEmail": "Invalid email address.",
+    "transactionBodyError": "Введены некорректные данные транзакции"
+  },
+  "registerScreen": {
+    "registration": "Регистрация",
+    "recoverFromMnemonicOne": "У меня уже есть кошелек",
+    "recoverFromMnemonicTwo": "Ввойти по другому кошельку",
+    "recoverPhrase": "Фраза восстановления",
+    "walletCreating": "Кошелек создается",
+    "enterPin": "Ввести PIN код",
+    "goExisting": "Ввойти в кошелек",
+    "walletRecoverTitle": "Введите фразу восстановления",
+    "recoveryError": "Неправильная фраза восстановления",
+    "recoveryDescription": "Пожалуйста введите фразу восстановления",
+    "createNewWallet": "Создать новый кошелек"
+  },
+  "lockerScreen": {
+    "incorrectPin": "Неправильный пин код",
+    "pinFormErrorIncorrectConfirmationMessage": "Некорректный пин код",
+    "pinFormErrorIncorrectPinMessage": "Некорректный пин код",
+    "pinFormLoginAction": "Введите %{p}ПИН код",
+    "pinFormRegisterAction": "Создайте %{p}ПИН код",
+    "pinFormConfirmationAction": "Подтвердите %{p}ПИН код",
+    "pinFormChangeActionDescription": "Для смены на новый",
+    "pinFormRegisterActionDescription": "Для быстрого доступа\nк приложению",
+    "pinFormConfirmationActionDescription": "И вспомните свой код",
+    "correctPin": "Пин код подтвержден",
+    "fingerprint": "Отпечаток"
+  },
+  "walletScreen": {
+    "allAddresses": "Все адреса",
+    "totalBalanceTittle": "Все ваши средства",
+    "name": "Кошелек",
+    "menuDialog": {
+      "createWallet": {
+        "name": "Создать новый адрес",
+        "createWalletMessage": "Создается новый адрес…",
+        "createWalletMessageDone": "Новый адрес создан!"
+      }
+    }
+  },
+  "browserScreen": {
+    "name": "Браузер",
+    "searchPlaceholder": "Введите URL-адрес или поисковый запрос",
+    "closeAllTabs": "Закрыть все вкладки",
+    "newTab": "Новая вкладка",
+    "reloadPage": "Перезагрузить",
+    "openNewTab": "Новая вкладка",
+    "addToBookmarks": "Добавить в закладки",
+    "changeAddress": "Сменить кошелек",
+    "changeNetwork": "Сменить сеть"
+  },
+  "walletMenuDialog": {
+    "hideWallet": "Скрыть адрес",
+    "transactionHistory": "Транзакции",
+    "noTransactions": "Транзакции появятся здесь"
+  },
+  "exportMnemonicDialog": {
+    "title": "Ваша секретная фраза",
+    "description": "Это ваша фраза восстановления. Она используется для доказательства владения кошельком. Запишите ее на бумаге и храните в надежном месте. Она понадобится вам, если вы потеряете или переустановите кошелек"
+  },
+  "settingsScreen": {
+    "name": "Настройки",
+    "editProfile": "Редактировать",
+    "menu": {
+      "currentCurrency": "Текущая валюта",
+      "changePin": "Сменить ПИН код",
+      "ethNetwork": "Сеть эфира",
+      "fiatFirst": "Показывать фиат сверху",
+      "currencyPreference": "Настройки валют",
+      "fiatPrimary": "Фиатный баланс вверху",
+      "tokenPrimary": "Крипто баланс вверху",
+      "native": "Нативный",
+      "graphPreferences": "Настройки графиков",
+      "showGraph": "Показывать графики",
+      "showToken": "Показывать токен",
+      "exportMnemonic": "Экспорт фразы восстановления",
+      "recoveryPhrase": "Фраза восстановления",
+      "changePinCode": "Сменить ПИН код",
+      "currency": "Валюта",
+      "network": "Сеть",
+      "aboutApplication": "О приложении",
+      "signOut": "Выйти",
+      "recoveryDescription": "Фраза восстановления дает полный доступ к кошельку, не передавайте ее третьим лицам. \n\nЕсли вы потеряете фразу восстановления, Wootzapp не сможет помочь Вам вернуть доступ к данному кошельку.",
+      "recoveryWarning": "Я понимаю риски",
+      "recoveryBtn": "Посмотреть фразу восстановления",
+      "recoveryPhraseDescription": "Запишите эти слова в точном порядке и сохраните в надежном месте . \nЕсли вы потеряете телефон или переустановите приложение - Вам понадобится фраза восстановления",
+      "recoveryPhraseWarning": "Не показывайте свою фразу восстановления кому либо, храните ее в секрете!",
+      "testNets": "Тестовые сети",
+      "mainNets": "Основные сети",
+      "bscNets": "BSC тестовые сети",
+      "privacyPolicyName": "Политика конфиденциальности",
+      "privacyPolicyDescription": "",
+      "termsOfServiceName": "Условия использования",
+      "termsOfServiceDescription": "",
+      "disableBio": "Вход по биометрии",
+      "walletConnect": {
+        "title": "Wallet connect",
+        "info": "Функция WalletConnect позволяет использовать этот кошелек WootzappBrowser с приложением на другом устройстве. Для подключения:\n",
+        "hint": "1. Посетите приложение или веб-сайт, поддерживающий WalletConnect (например, Uniswap);\n2. Нажмите кнопку «Подключить кошелек» и выберите \"WalletConnect\";\n3. Отсканируйте QR-код с помощью кошелька Wootzapp\n"
+      },
+      "displayOptions": "Параметры отображения",
+      "balanceDisplay": "Отображение баланса",
+      "fiatCurrency": "Фиатная валюта",
+      "infoDisplay": "Информационный дисплей",
+      "charts": "Графики",
+      "tokenPrice": "Цена токена"
+    }
+  },
+  "visibilityScreen": {
+    "name": "Видимость",
+    "totalTokens": "Всего токенов",
+    "visibleTokens": "Видимые токены",
+    "invisibleTokens": "Скрытые токены"
+  },
+  "selectTransactionFeeDialog": {
+    "name": "Выбор скорости транзакции",
+    "description": "Выберите время в соответствии со стоимостью"
+  },
+  "exitDialog": {
+    "title": "Вы сохранили свою фразу восстановления?",
+    "description": "Без нее вы не сможете больше получить доступ к своему аккаунту"
+  },
+  "sendTransactionDialog": {
+    "successTx": "Средства успешно отправлены",
+    "errorTx": "Ошибка создания транзакции",
+    "suggestedFee": "Предлагаемая комиссия",
+    "maxFee": "Комиссия",
+    "maxAmount": "Максимум",
+    "outerSuggestion": "TX data",
+    "transactionSending": "Транзакция отправляется",
+    "successSendTx": "Транзакция успешно отправлена",
+    "sendTransaction": "Отправить",
+    "cantRewriteTransaction": "У Вас недостаточно средств, для того чтобы отменить или ускорить транзакцию",
+    "insufficientBalance": "Недостаточно средств"
+  },
+  "selectValueScreen": {
+    "step": "Шаг 1 из 3",
+    "step2": "Шаг 2 из 3",
+    "step3": "Шаг 3 из 3",
+    "nextBtn": "Далее",
+    "fee": "Комиссия"
+  },
+  "selectAddressScreen": {
+    "inputMessage": "Пожалуйста введите адрес или используйте сканер",
+    "inputMessageError": "Не действительный адрес",
+    "transfer": "Трансфер",
+    "betweenMyAddresses": "Между моими адресами",
+    "toRecentAddress": "Недавние адреса"
+  },
+  "selectWalletTokenDialog": {
+    "title": "Выбрать токен"
+  },
+  "approvalDappConnectDialog": {
+    "wontToConnect": "Соединение с",
+    "attention": "Соглашаясь, вы разрешаете DApp получить адрес вашего кошелька и включить Web3",
+    "deny": "Может быть позже",
+    "allow": "Да, подключить этот адрес"
+  },
+  "profileScreen": {
+    "name": "Профиль",
+    "email": "Email",
+    "firstName": "Имя",
+    "lastName": "Фамилия"
+  },
+  "signatureRequest": {
+    "title": "Запрос на подпись",
+    "signRequested": "Ваша подпись запрашивается",
+    "signing": "Да, подписать сообщение",
+    "deny": "Возможно позже",
+    "ethSignWarning": "Подписывая сообщение. Убедитесь, что вы доверяете этому сайту."
+  },
+  "transactionsScreen": {
+    "name": "Транзакции"
+  },
+  "transactionScreen": {
+    "transactionDetails": "Детали транзакции",
+    "viewOnEtherScan": "Посмотреть на %{0}",
+    "status": "Статус",
+    "date": "Дата",
+    "from": "От",
+    "to": "Кому",
+    "amount": "Сумма",
+    "suggestedFee": "Коммиссия",
+    "total": "Всего",
+    "cancelTransaction": "Отменить транзакцию",
+    "speedUpTransaction": "Ускорить транзакцию",
+    "howMany": "Как много",
+    "adjustFee": "Настроить комиссию",
+    "changeFee": "Изменить комиссию"
+  },
+  "transactionModel": {
+    "status": {
+      "fail": "Неудачно",
+      "success": "Подтверждено",
+      "process": "В процессе"
+    },
+    "action": {
+      "outgoing": "Отправлено",
+      "incoming": "Получено",
+      "undefined": "Неустановлено",
+      "smartContract": "Контракт",
+      "error": "Ошибка",
+      "reject": "Отмена",
+      "pending": "Отправляется",
+      "cancelling": "Отменяется"
+    }
+  },
+  "sendTransaction": {
+    "action": {
+      "pending": "Ожидание транзакции...",
+      "cancel": "Отмена транзакции...",
+      "speedUp": "Ускорение транзакции...",
+      "done": "Транзакция выполнена!",
+      "error": "Ошибка транзакции"
+    }
+  },
+  "selfAddressQRCodeDialog": {
+    "copyAddress": "Копировать адрес",
+    "shareAddress": "Отправить адрес",
+    "description": "Для того чтобы получить средства, отправителю достаточно отсканировать QR код и внести нужное количество средств через свой криптокошелек",
+    "shareTitle": "Ethereum адрес"
+  },
+  "appToasts": {
+    "addressCopied": "Ваш публичный адрес скопирован",
+    "connected": "Соединение восстановлено",
+    "disconnected": "Соединение потеряно"
+  },
+  "qRScanner": {
+    "allowDialog": {
+      "title": "\"Wootzapp\" приложению требуется разрешение",
+      "message": "Для сканирования QR кодов с адресами получателей"
+    },
+    "scanning": "Направьте вашу камеру на QR код",
+    "chooseFromGallery": "Выбрать из галереи",
+    "qrCodeDetectionError": "Не удалось обнаружить QR-код на изображении",
+    "scanQrCode": "Сканировать QR-код"
+  },
+  "infoScreen": {
+    "signIn": {
+      "title": "Кнопка %{key} означает:",
+      "description": "Если у вас есть кошелек, вы можете вставить свои секретные 12 слов и перенести свою учетную запись в приложение кошелька Wootzapp."
+    },
+    "createWallet": {
+      "title": "Кнопка “Создать новый кошелек” означает:",
+      "description": "Если у вас нет кошелька, вы можете создать его здесь, в приложении кошелька Wootzapp."
+    },
+    "enterPin": {
+      "title": "Кнопка “Введите PIN-код” означает:",
+      "description": "Введите PIN-код, чтобы войти в существующий кошелек"
+    }
+  },
+  "loadingText": "Пожалуйста подождите... \n Это может занять пару минут",
+  "offers": {
+    "seed": {
+      "tittle": "Фраза восстановления",
+      "description": "Проверьте Вашу сид фразу, для восстановления кошелька"
+    }
+  }
+}
